@@ -7,14 +7,14 @@ public class ConversorMonedas {
     public void iniciar(){
 
         double tasa = 4000;
-
         Scanner entrada = new Scanner(System.in);
+
         System.out.println("Escoja que conversión desea:");
         System.out.println("1. COP a USD.");
         System.out.println("2. USD a COP.");
         int opcionConversor = entrada.nextInt();
 
-        System.out.println("Ingrese el valor que desea convertir");
+        System.out.print("Ingrese el valor que desea convertir: ");
         double valorAconvertir = entrada.nextDouble();
         
         if (opcionConversor == 1) {

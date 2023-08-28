@@ -19,7 +19,8 @@ public class App {
                 break;
             
             case 2:
-                System.out.println("Ingresó opción invalida.");
+                Calculadora cal = new Calculadora(); 
+                cal.iniciar();
                 break;
         
             default:
