@@ -1,18 +1,12 @@
-## Getting Started
+## Conversor de monedas y Calculadora Simple.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Taller 2:
+Contiene el punto 2 y 3 del segundo taller.
 
-## Folder Structure
+## Estructura.
 
-The workspace contains two folders by default, where:
+Contiene:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `ConversorMonedas`: Clase con metodos para convertir monedas.
+- `Calculadora`: Clase con métodos para realizar operaciones matemáticas básicas.
+- `Main`: Clase principal.
